@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42ECDA7D172A390700C68E8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA7C172A390700C68E8A /* UIKit.framework */; };
+		42ECDA7F172A390700C68E8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA7E172A390700C68E8A /* Foundation.framework */; };
+		42ECDA81172A390700C68E8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA80172A390700C68E8A /* CoreGraphics.framework */; };
+		42ECDA83172A390700C68E8A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA82172A390700C68E8A /* CoreData.framework */; };
+		42ECDA89172A390700C68E8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42ECDA87172A390700C68E8A /* InfoPlist.strings */; };
+		42ECDA8B172A390700C68E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDA8A172A390700C68E8A /* main.m */; };
+		42ECDA8F172A390700C68E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDA8E172A390700C68E8A /* AppDelegate.m */; };
+		42ECDA92172A390700C68E8A /* Trekking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDA90172A390700C68E8A /* Trekking.xcdatamodeld */; };
+		42ECDA9A172A390700C68E8A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA99172A390700C68E8A /* SenTestingKit.framework */; };
+		42ECDA9B172A390700C68E8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA7C172A390700C68E8A /* UIKit.framework */; };
+		42ECDA9C172A390700C68E8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA7E172A390700C68E8A /* Foundation.framework */; };
+		42ECDA9D172A390700C68E8A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ECDA82172A390700C68E8A /* CoreData.framework */; };
+		42ECDAA5172A390800C68E8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42ECDAA3172A390800C68E8A /* InfoPlist.strings */; };
+		42ECDAA8172A390800C68E8A /* TrekkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAA7172A390800C68E8A /* TrekkingTests.m */; };
+		42ECDAB3172A392F00C68E8A /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAB2172A392F00C68E8A /* SplashScreen.m */; };
+		42ECDAB6172A396900C68E8A /* informationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAB5172A396900C68E8A /* informationViewController.m */; };
+		42ECDAB9172A398C00C68E8A /* MainmenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAB8172A398C00C68E8A /* MainmenuViewController.m */; };
+		42ECDABC172A39AE00C68E8A /* FindTrekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDABB172A39AE00C68E8A /* FindTrekViewController.m */; };
+		42ECDABF172A39D400C68E8A /* TrekDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDABE172A39D400C68E8A /* TrekDetailsViewController.m */; };
+		42ECDAC2172A3A0B00C68E8A /* TrekDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAC1172A3A0B00C68E8A /* TrekDetailCell.m */; };
+		42ECDAC4172A3B1300C68E8A /* catcartoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42ECDAC3172A3B1300C68E8A /* catcartoon.jpg */; };
+		42ECDAC6172A3B1A00C68E8A /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42ECDAC5172A3B1A00C68E8A /* background.jpg */; };
+		42ECDAD2172A50D400C68E8A /* download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42ECDAD1172A50D400C68E8A /* download.jpg */; };
+		42ECDADD172A84F200C68E8A /* ViewonMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDADC172A84F200C68E8A /* ViewonMapViewController.m */; };
+		42ECDAE0172A850A00C68E8A /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDADF172A850A00C68E8A /* StatsViewController.m */; };
+		42ECDAE3172A853C00C68E8A /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAE2172A853B00C68E8A /* PictureViewController.m */; };
+		42ECDAE7172A86A700C68E8A /* ReqTrekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAE6172A86A700C68E8A /* ReqTrekViewController.m */; };
+		42ECDAEE172A8EFA00C68E8A /* clueListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECDAED172A8EFA00C68E8A /* clueListViewController.m */; };
+		42ECDAF0172A9CCF00C68E8A /* thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42ECDAEF172A9CCF00C68E8A /* thumbnail.jpg */; };
+		42F4FEEC172E4422000741CA /* star_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F4FEEB172E4422000741CA /* star_icon.png */; };
+		42F4FF03172EA105000741CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F4FF02172EA105000741CA /* MapKit.framework */; };
+		42F4FF06172EA1EE000741CA /* viewMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4FF05172EA1EE000741CA /* viewMapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42ECDA9E172A390800C68E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42ECDA6F172A390700C68E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42ECDA77172A390700C68E8A;
+			remoteInfo = Trekking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42ECDA78172A390700C68E8A /* Trekking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ECDA7C172A390700C68E8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42ECDA7E172A390700C68E8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42ECDA80172A390700C68E8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42ECDA82172A390700C68E8A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		42ECDA86172A390700C68E8A /* Trekking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trekking-Info.plist"; sourceTree = "<group>"; };
+		42ECDA88172A390700C68E8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42ECDA8A172A390700C68E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42ECDA8C172A390700C68E8A /* Trekking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trekking-Prefix.pch"; sourceTree = "<group>"; };
+		42ECDA8D172A390700C68E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42ECDA8E172A390700C68E8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42ECDA91172A390700C68E8A /* Trekking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trekking.xcdatamodel; sourceTree = "<group>"; };
+		42ECDA98172A390700C68E8A /* TrekkingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekkingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ECDA99172A390700C68E8A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		42ECDAA2172A390800C68E8A /* TrekkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrekkingTests-Info.plist"; sourceTree = "<group>"; };
+		42ECDAA4172A390800C68E8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42ECDAA6172A390800C68E8A /* TrekkingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrekkingTests.h; sourceTree = "<group>"; };
+		42ECDAA7172A390800C68E8A /* TrekkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrekkingTests.m; sourceTree = "<group>"; };
+		42ECDAB1172A392F00C68E8A /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		42ECDAB2172A392F00C68E8A /* SplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreen.m; sourceTree = "<group>"; };
+		42ECDAB4172A396900C68E8A /* informationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = informationViewController.h; path = ../informationViewController.h; sourceTree = "<group>"; };
+		42ECDAB5172A396900C68E8A /* informationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = informationViewController.m; path = ../informationViewController.m; sourceTree = "<group>"; };
+		42ECDAB7172A398C00C68E8A /* MainmenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainmenuViewController.h; path = ../MainmenuViewController.h; sourceTree = "<group>"; };
+		42ECDAB8172A398C00C68E8A /* MainmenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainmenuViewController.m; path = ../MainmenuViewController.m; sourceTree = "<group>"; };
+		42ECDABA172A39AE00C68E8A /* FindTrekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindTrekViewController.h; path = ../FindTrekViewController.h; sourceTree = "<group>"; };
+		42ECDABB172A39AE00C68E8A /* FindTrekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FindTrekViewController.m; path = ../FindTrekViewController.m; sourceTree = "<group>"; };
+		42ECDABD172A39D400C68E8A /* TrekDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrekDetailsViewController.h; path = ../TrekDetailsViewController.h; sourceTree = "<group>"; };
+		42ECDABE172A39D400C68E8A /* TrekDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrekDetailsViewController.m; path = ../TrekDetailsViewController.m; sourceTree = "<group>"; };
+		42ECDAC0172A3A0B00C68E8A /* TrekDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrekDetailCell.h; path = ../TrekDetailCell.h; sourceTree = "<group>"; };
+		42ECDAC1172A3A0B00C68E8A /* TrekDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrekDetailCell.m; path = ../TrekDetailCell.m; sourceTree = "<group>"; };
+		42ECDAC3172A3B1300C68E8A /* catcartoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catcartoon.jpg; sourceTree = "<group>"; };
+		42ECDAC5172A3B1A00C68E8A /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		42ECDAD1172A50D400C68E8A /* download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpg; sourceTree = "<group>"; };
+		42ECDADB172A84F200C68E8A /* ViewonMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewonMapViewController.h; sourceTree = "<group>"; };
+		42ECDADC172A84F200C68E8A /* ViewonMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewonMapViewController.m; sourceTree = "<group>"; };
+		42ECDADE172A850A00C68E8A /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		42ECDADF172A850A00C68E8A /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		42ECDAE1172A853B00C68E8A /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		42ECDAE2172A853B00C68E8A /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		42ECDAE5172A86A700C68E8A /* ReqTrekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReqTrekViewController.h; sourceTree = "<group>"; };
+		42ECDAE6172A86A700C68E8A /* ReqTrekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReqTrekViewController.m; sourceTree = "<group>"; };
+		42ECDAEC172A8EFA00C68E8A /* clueListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clueListViewController.h; path = ../clueListViewController.h; sourceTree = "<group>"; };
+		42ECDAED172A8EFA00C68E8A /* clueListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = clueListViewController.m; path = ../clueListViewController.m; sourceTree = "<group>"; };
+		42ECDAEF172A9CCF00C68E8A /* thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnail.jpg; sourceTree = "<group>"; };
+		42F4FEEB172E4422000741CA /* star_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_icon.png; sourceTree = "<group>"; };
+		42F4FF02172EA105000741CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		42F4FF04172EA1EE000741CA /* viewMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewMapViewController.h; sourceTree = "<group>"; };
+		42F4FF05172EA1EE000741CA /* viewMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewMapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42ECDA75172A390700C68E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F4FF03172EA105000741CA /* MapKit.framework in Frameworks */,
+				42ECDA7D172A390700C68E8A /* UIKit.framework in Frameworks */,
+				42ECDA7F172A390700C68E8A /* Foundation.framework in Frameworks */,
+				42ECDA81172A390700C68E8A /* CoreGraphics.framework in Frameworks */,
+				42ECDA83172A390700C68E8A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ECDA94172A390700C68E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ECDA9A172A390700C68E8A /* SenTestingKit.framework in Frameworks */,
+				42ECDA9B172A390700C68E8A /* UIKit.framework in Frameworks */,
+				42ECDA9C172A390700C68E8A /* Foundation.framework in Frameworks */,
+				42ECDA9D172A390700C68E8A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42ECDA6D172A390700C68E8A = {
+			isa = PBXGroup;
+			children = (
+				42ECDAE4172A854B00C68E8A /* Tabs */,
+				42ECDA84172A390700C68E8A /* Trekking */,
+				42ECDAA0172A390800C68E8A /* TrekkingTests */,
+				42ECDA7B172A390700C68E8A /* Frameworks */,
+				42ECDA79172A390700C68E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42ECDA79172A390700C68E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42ECDA78172A390700C68E8A /* Trekking.app */,
+				42ECDA98172A390700C68E8A /* TrekkingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42ECDA7B172A390700C68E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42F4FF02172EA105000741CA /* MapKit.framework */,
+				42ECDA7C172A390700C68E8A /* UIKit.framework */,
+				42ECDA7E172A390700C68E8A /* Foundation.framework */,
+				42ECDA80172A390700C68E8A /* CoreGraphics.framework */,
+				42ECDA82172A390700C68E8A /* CoreData.framework */,
+				42ECDA99172A390700C68E8A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42ECDA84172A390700C68E8A /* Trekking */ = {
+			isa = PBXGroup;
+			children = (
+				42ECDA8D172A390700C68E8A /* AppDelegate.h */,
+				42ECDA8E172A390700C68E8A /* AppDelegate.m */,
+				42ECDAB1172A392F00C68E8A /* SplashScreen.h */,
+				42ECDAB2172A392F00C68E8A /* SplashScreen.m */,
+				42ECDAB4172A396900C68E8A /* informationViewController.h */,
+				42ECDAB5172A396900C68E8A /* informationViewController.m */,
+				42ECDAB7172A398C00C68E8A /* MainmenuViewController.h */,
+				42ECDAB8172A398C00C68E8A /* MainmenuViewController.m */,
+				42ECDABA172A39AE00C68E8A /* FindTrekViewController.h */,
+				42ECDABB172A39AE00C68E8A /* FindTrekViewController.m */,
+				42ECDAEC172A8EFA00C68E8A /* clueListViewController.h */,
+				42ECDAED172A8EFA00C68E8A /* clueListViewController.m */,
+				42ECDABD172A39D400C68E8A /* TrekDetailsViewController.h */,
+				42ECDABE172A39D400C68E8A /* TrekDetailsViewController.m */,
+				42ECDAC0172A3A0B00C68E8A /* TrekDetailCell.h */,
+				42ECDAC1172A3A0B00C68E8A /* TrekDetailCell.m */,
+				42ECDA90172A390700C68E8A /* Trekking.xcdatamodeld */,
+				42ECDA85172A390700C68E8A /* Supporting Files */,
+				42F4FF04172EA1EE000741CA /* viewMapViewController.h */,
+				42F4FF05172EA1EE000741CA /* viewMapViewController.m */,
+			);
+			path = Trekking;
+			sourceTree = "<group>";
+		};
+		42ECDA85172A390700C68E8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F4FEEB172E4422000741CA /* star_icon.png */,
+				42ECDAC3172A3B1300C68E8A /* catcartoon.jpg */,
+				42ECDAEF172A9CCF00C68E8A /* thumbnail.jpg */,
+				42ECDAD1172A50D400C68E8A /* download.jpg */,
+				42ECDAC5172A3B1A00C68E8A /* background.jpg */,
+				42ECDA86172A390700C68E8A /* Trekking-Info.plist */,
+				42ECDA87172A390700C68E8A /* InfoPlist.strings */,
+				42ECDA8A172A390700C68E8A /* main.m */,
+				42ECDA8C172A390700C68E8A /* Trekking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42ECDAA0172A390800C68E8A /* TrekkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				42ECDAA6172A390800C68E8A /* TrekkingTests.h */,
+				42ECDAA7172A390800C68E8A /* TrekkingTests.m */,
+				42ECDAA1172A390800C68E8A /* Supporting Files */,
+			);
+			path = TrekkingTests;
+			sourceTree = "<group>";
+		};
+		42ECDAA1172A390800C68E8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42ECDAA2172A390800C68E8A /* TrekkingTests-Info.plist */,
+				42ECDAA3172A390800C68E8A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42ECDAE4172A854B00C68E8A /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				42ECDADB172A84F200C68E8A /* ViewonMapViewController.h */,
+				42ECDADC172A84F200C68E8A /* ViewonMapViewController.m */,
+				42ECDADF172A850A00C68E8A /* StatsViewController.m */,
+				42ECDADE172A850A00C68E8A /* StatsViewController.h */,
+				42ECDAE2172A853B00C68E8A /* PictureViewController.m */,
+				42ECDAE1172A853B00C68E8A /* PictureViewController.h */,
+				42ECDAE5172A86A700C68E8A /* ReqTrekViewController.h */,
+				42ECDAE6172A86A700C68E8A /* ReqTrekViewController.m */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42ECDA77172A390700C68E8A /* Trekking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ECDAAB172A390800C68E8A /* Build configuration list for PBXNativeTarget "Trekking" */;
+			buildPhases = (
+				42ECDA74172A390700C68E8A /* Sources */,
+				42ECDA75172A390700C68E8A /* Frameworks */,
+				42ECDA76172A390700C68E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trekking;
+			productName = Trekking;
+			productReference = 42ECDA78172A390700C68E8A /* Trekking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42ECDA97172A390700C68E8A /* TrekkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ECDAAE172A390800C68E8A /* Build configuration list for PBXNativeTarget "TrekkingTests" */;
+			buildPhases = (
+				42ECDA93172A390700C68E8A /* Sources */,
+				42ECDA94172A390700C68E8A /* Frameworks */,
+				42ECDA95172A390700C68E8A /* Resources */,
+				42ECDA96172A390700C68E8A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42ECDA9F172A390800C68E8A /* PBXTargetDependency */,
+			);
+			name = TrekkingTests;
+			productName = TrekkingTests;
+			productReference = 42ECDA98172A390700C68E8A /* TrekkingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42ECDA6F172A390700C68E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 42ECDA72172A390700C68E8A /* Build configuration list for PBXProject "Trekking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42ECDA6D172A390700C68E8A;
+			productRefGroup = 42ECDA79172A390700C68E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42ECDA77172A390700C68E8A /* Trekking */,
+				42ECDA97172A390700C68E8A /* TrekkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42ECDA76172A390700C68E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ECDA89172A390700C68E8A /* InfoPlist.strings in Resources */,
+				42ECDAC4172A3B1300C68E8A /* catcartoon.jpg in Resources */,
+				42ECDAC6172A3B1A00C68E8A /* background.jpg in Resources */,
+				42ECDAD2172A50D400C68E8A /* download.jpg in Resources */,
+				42ECDAF0172A9CCF00C68E8A /* thumbnail.jpg in Resources */,
+				42F4FEEC172E4422000741CA /* star_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ECDA95172A390700C68E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ECDAA5172A390800C68E8A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42ECDA96172A390700C68E8A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42ECDA74172A390700C68E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ECDA8B172A390700C68E8A /* main.m in Sources */,
+				42ECDA8F172A390700C68E8A /* AppDelegate.m in Sources */,
+				42ECDA92172A390700C68E8A /* Trekking.xcdatamodeld in Sources */,
+				42ECDAB3172A392F00C68E8A /* SplashScreen.m in Sources */,
+				42ECDAB6172A396900C68E8A /* informationViewController.m in Sources */,
+				42ECDAB9172A398C00C68E8A /* MainmenuViewController.m in Sources */,
+				42ECDABC172A39AE00C68E8A /* FindTrekViewController.m in Sources */,
+				42ECDABF172A39D400C68E8A /* TrekDetailsViewController.m in Sources */,
+				42ECDAC2172A3A0B00C68E8A /* TrekDetailCell.m in Sources */,
+				42ECDADD172A84F200C68E8A /* ViewonMapViewController.m in Sources */,
+				42ECDAE0172A850A00C68E8A /* StatsViewController.m in Sources */,
+				42ECDAE3172A853C00C68E8A /* PictureViewController.m in Sources */,
+				42ECDAE7172A86A700C68E8A /* ReqTrekViewController.m in Sources */,
+				42ECDAEE172A8EFA00C68E8A /* clueListViewController.m in Sources */,
+				42F4FF06172EA1EE000741CA /* viewMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ECDA93172A390700C68E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ECDAA8172A390800C68E8A /* TrekkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42ECDA9F172A390800C68E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42ECDA77172A390700C68E8A /* Trekking */;
+			targetProxy = 42ECDA9E172A390800C68E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42ECDA87172A390700C68E8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ECDA88172A390700C68E8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42ECDAA3172A390800C68E8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ECDAA4172A390800C68E8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42ECDAA9172A390800C68E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42ECDAAA172A390800C68E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42ECDAAC172A390800C68E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trekking/Trekking-Prefix.pch";
+				INFOPLIST_FILE = "Trekking/Trekking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42ECDAAD172A390800C68E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trekking/Trekking-Prefix.pch";
+				INFOPLIST_FILE = "Trekking/Trekking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42ECDAAF172A390800C68E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trekking.app/Trekking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trekking/Trekking-Prefix.pch";
+				INFOPLIST_FILE = "TrekkingTests/TrekkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		42ECDAB0172A390800C68E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trekking.app/Trekking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trekking/Trekking-Prefix.pch";
+				INFOPLIST_FILE = "TrekkingTests/TrekkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42ECDA72172A390700C68E8A /* Build configuration list for PBXProject "Trekking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ECDAA9172A390800C68E8A /* Debug */,
+				42ECDAAA172A390800C68E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42ECDAAB172A390800C68E8A /* Build configuration list for PBXNativeTarget "Trekking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ECDAAC172A390800C68E8A /* Debug */,
+				42ECDAAD172A390800C68E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42ECDAAE172A390800C68E8A /* Build configuration list for PBXNativeTarget "TrekkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ECDAAF172A390800C68E8A /* Debug */,
+				42ECDAB0172A390800C68E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42ECDA90172A390700C68E8A /* Trekking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42ECDA91172A390700C68E8A /* Trekking.xcdatamodel */,
+			);
+			currentVersion = 42ECDA91172A390700C68E8A /* Trekking.xcdatamodel */;
+			path = Trekking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42ECDA6F172A390700C68E8A /* Project object */;
+}
